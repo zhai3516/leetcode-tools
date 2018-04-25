@@ -1,3 +1,7 @@
 # Tools for leetcode
 
-- TestTools: Int slice -> TreeNodes
+## Tree: Slice <-> TreeNode
+```
+Slice2TreeNode: []interface{} -> *model.TreeNode
+TreeNode2Slice: *model.TreeNode -> []interface{}
+```

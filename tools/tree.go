@@ -1,11 +1,8 @@
 package tools
 
 import (
-	"fmt"
-
-	"github.com/zhai3516/leetcode-tools/model"
-
 	"github.com/golang-collections/go-datastructures/queue"
+	"github.com/zhai3516/leetcode-tools/model"
 )
 
 func Slice2TreeNodes(s []interface{}) *model.TreeNode {
@@ -88,6 +85,5 @@ func TreeNode2Slice(root *model.TreeNode) []interface{} {
 		results = append(results[:len(results)-1])
 	}
 
-	fmt.Println(results)
 	return results
 }
