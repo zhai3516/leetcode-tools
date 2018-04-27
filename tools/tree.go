@@ -1,7 +1,7 @@
 package tools
 
 import (
-	"github.com/golang-collections/go-datastructures/queue"
+	"github.com/Workiva/go-datastructures/queue"
 	"github.com/zhai3516/leetcode-tools/model"
 )
 
