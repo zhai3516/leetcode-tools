@@ -81,8 +81,12 @@ func TreeNode2Slice(root *model.TreeNode) []interface{} {
 		rootFlag = false
 	}
 
-	if results[len(results)-1] == nil {
-		results = append(results[:len(results)-1])
+	for i := len(results) - 1; ; i-- {
+		if results[i] == nil {
+			results = append(results[:len(results)-1])
+		} else {
+			break
+		}
 	}
 
 	return results
