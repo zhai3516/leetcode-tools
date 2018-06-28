@@ -16,5 +16,5 @@ lckit is a tool that help to create leetcode code template
 
 `go install github.com/zhai3516/leetcode-tools/lckit`
 
-## Useage
+## Usage
 `lckit --kit=tmp --name="Flatten Binary Tree to Linked List" --type=tree`
