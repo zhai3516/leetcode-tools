@@ -13,6 +13,7 @@ lckit is a tool that help to create leetcode code template
 
 ## Install
 `go get github.com/zhai3516/leetcode-tools`
+
 `go install github.com/zhai3516/leetcode-tools/lckit`
 
 ## Useage
